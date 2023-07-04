@@ -22,11 +22,6 @@ print("start", device)
 batchsize = 1 # 128
 num_epoches = 1
 
-data_path = "../real_R_data/new_version/training_dataset"
-eyes_d = np.load(data_path+"/full_eyes(1000x2x52).npy")
-mouth_d = np.load(data_path+"/full_mouth(1129x2x61).npy")
-eyes_c = np.load(data_path+"/eyes_cmds(1000x4).npy")
-mouth_c = np.load(data_path+"/mouth_cmds(1129x7).npy")
 
 class pred_data(Dataset):
     def __init__(self, input_data, label_data):
@@ -262,6 +257,13 @@ if __name__ == '__main__':
 
     # obtain raw values:
     if mode ==0:
+        data_path = "../real_R_data/new_version/training_dataset"
+        eyes_d = np.load(data_path + "/full_eyes(1000x2x52).npy")
+        mouth_d = np.load(data_path + "/full_mouth(1129x2x61).npy")
+        eyes_c = np.load(data_path + "/eyes_cmds(1000x4).npy")
+        mouth_c = np.load(data_path + "/mouth_cmds(1129x7).npy")
+
+
         import sys
         sys.path.insert(0, '../Jionglin/data_collection/')
         # from simplified_landmark_plus import face_3d_to_2d, mash_to_contour, mash_to_contour_half, plot_2d_face

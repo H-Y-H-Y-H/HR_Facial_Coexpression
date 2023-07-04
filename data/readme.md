@@ -2,10 +2,10 @@
 
 [Download trained models](https://drive.google.com/file/d/1dQbyaFoQ01b4uADCWbHdAkBvR-BeMlMu/view?usp=share_link)
 
-
 2. Trained model of the predictive model.
 
-[Download trained predictive models](https://drive.google.com/file/d/1yWFARZqqgthld3J42CqHh8PMCL_WXAWs/view?usp=share_link)
+[Download trained predictive models](
+https://drive.google.com/file/d/1yWFARZqqgthld3J42CqHh8PMCL_WXAWs/view?usp=share_link)
 
 3. Training Dataset
 
